@@ -1,12 +1,8 @@
-/*
-Template Name:Affiliates
-Copyright:WowThemes.net,https://www.wowthemes.net
-Version:1.0.2
-License: https://www.wowthemes.net/freebies-license/
-*/
+
 body {
     font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
     overflow-x: hidden;
+    background-image: image-set();
 }
 .mainheading {
 	padding: 0rem 0rem 1rem 0;
@@ -327,6 +323,8 @@ span.post-name a,span.post-read-more a:hover {
 }
 .intro {
     background-image:url(../images/head.jpg);
+    /* filter: blur(5px); */
+    /* -webkit-filter: blur(5px); */
     background-size:cover;
     padding: 9rem 0;
     margin-top:-87px;
@@ -334,8 +332,10 @@ span.post-name a,span.post-read-more a:hover {
     z-index: 1;
     position: relative;
 }
+
+
 .intro .btn {
-    background: #fff100;
+    background: #15ff00;
     border: 0;
     color: #333;
     border-radius: 3px;
@@ -343,10 +343,15 @@ span.post-name a,span.post-read-more a:hover {
     padding: 15px 40px;
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1);
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 1px;
+    width: 400px;
+    max-width: 90%;
+    margin: 0px auto;
+    text-align: center;
 }
 .intro h1 {
+    color: rgb(102, 211, 59);
     font-weight:700;
 }
 .intro h2 {
@@ -356,7 +361,12 @@ span.post-name a,span.post-read-more a:hover {
     line-height: 1.6;
 }
 .wrapintro {
-    background: #fff;
+    /* background: #fff; */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
     width: 700px;
     padding: 3rem;
     max-width: 90%;
