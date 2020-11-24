@@ -1,9 +1,9 @@
 # Site
-name: "Affiliates Theme for Jekyll"
-title: "Affiliates Theme for Jekyll"
-description: "Jekyll Theme for Blogging"
-meta_description: "Jekyll theme for blogging."
-logo: 'assets/images/logo.png'
+name: "BloggerVlog"
+title: "BloggerVlog"
+description: "Blogging with Vlogs"
+meta_description: "Blogging with Vlogs."
+logo: 'assets/images/1logo.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
 baseurl: '/affiliates-jekyll-theme-master'
