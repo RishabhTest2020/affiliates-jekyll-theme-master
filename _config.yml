@@ -6,7 +6,7 @@ meta_description: "Blogging with Vlogs."
 logo: 'assets/images/1logo.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
-baseurl: '/affiliates-jekyll-theme-master'
+baseurl: ''
 url:  "https://rishabhtest2020.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 email: 'rishabh.resources@gmail.com'
 google_analytics: 'GA-ID(eg.UA-46278016-1)'
